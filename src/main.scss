@@ -67,7 +67,7 @@ a {
 .content {
   position: relative;
   width: 1024px;
-  margin: 50px auto;
+  margin: 20px auto;
   @include border-radius(5px);
   background-color: #fff;
   overflow: hidden;
@@ -80,7 +80,7 @@ a {
 
 .content-hd {
   width: 100%;
-  padding: 30px 50px;
+  padding: 20px 50px;
   color: #fff;
   background-color: $color-green;
   overflow: hidden;
@@ -220,7 +220,7 @@ a {
 .content-bd {
   width: 100%;
   min-height: 200px;
-  padding: 20px 30px 50px;
+  padding: 20px 30px 20px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
     padding: 20px 20px 50px;
@@ -250,7 +250,7 @@ a {
   .section-hd {
     position: relative;
     height: 32px;
-    margin: 10px auto 5px;
+    margin: 5px auto 5px;
     overflow: hidden;
   }
 
