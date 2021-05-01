@@ -67,7 +67,7 @@ a {
 .content {
   position: relative;
   width: 1024px;
-  margin: 20px auto;
+  margin: 10px auto;
   @include border-radius(5px);
   background-color: #fff;
   overflow: hidden;
@@ -80,7 +80,7 @@ a {
 
 .content-hd {
   width: 100%;
-  padding: 20px 50px;
+  padding: 10px 50px;
   color: #fff;
   background-color: $color-green;
   overflow: hidden;
@@ -220,10 +220,10 @@ a {
 .content-bd {
   width: 100%;
   min-height: 200px;
-  padding: 20px 30px 20px;
+  padding: 10px 30px 20px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
-    padding: 20px 20px 50px;
+    padding: 10px 20px 50px;
   }
 
   .content-left,
@@ -244,12 +244,12 @@ a {
 
   section {
     overflow: hidden;
-    padding: 10px 15px;
+    padding: 5px 15px;
   }
 
   .section-hd {
     position: relative;
-    height: 32px;
+    height: 24px;
     margin: 5px auto 5px;
     overflow: hidden;
   }
@@ -259,13 +259,13 @@ a {
 
     ul {
       li {
-        margin-top: 8px;
+        margin-top: 4px;
         list-style: square inside;
       }
     }
 
     .item {
-      margin-bottom: 20px;
+      margin-bottom: 0px;
     }
   }
 
@@ -296,7 +296,7 @@ a {
     margin: 0 auto;
     padding: 4px 10px;
     @include border-radius(32px);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     text-align: center;
     background-color: #eee;
@@ -308,20 +308,17 @@ a {
 
   .item-hd {
     position: relative;
-    padding: 10px 0 5px;
-    line-height: 20px;
     overflow: hidden;
-    font-weight: 500;
-    min-height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .item-title {
+      font-weight: bold;
+    }
 
     .item-time {
-      display: inline-block;
-      float: left;
-      width: 25%;
-      @media screen and (max-width: 720px) {
-        width: 100%;
-        margin-bottom: 5px;
-      }
     }
 
     .item-more {
